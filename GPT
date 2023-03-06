@@ -1,0 +1,51 @@
++----------------------+
+|      Atendente       |
++----------------------+
+| -idAtendente: int     |
+| -nome: string        |
+| -email: string       |
+| -telefone: string    |
+| -endereco: string    |
+| -buscarCliente()     |
+| -cadastrarCliente()  |
+| -editarCliente()     |
+| -excluirCliente()    |
+| -listarClientes()    |
+| -realizarLocacao()   |
+| -realizarDevolucao() |
++----------------------+
+
++----------------------+
+|       Cliente        |
++----------------------+
+| -idCliente: int      |
+| -nome: string        |
+| -email: string       |
+| -cpf: string         |
+| -telefone: string    |
+| -endereco: string    |
+| -listLocacoes: array |
++----------------------+
+
++----------------------+
+|        Locacao       |
++----------------------+
+| -idLocacao: int      |
+| -cliente: Cliente    |
+| -produto: Produto    |
+| -dataRetirada: date  |
+| -dataDevolucao: date |
+| -status: string      |
++----------------------+
+
++----------------------+
+|       Produto        |
++----------------------+
+| -idProduto: int      |
+| -titulo: string      |
+| -descricao: string   |
+| -categoria: string   |
+| -dataLancamento: date|
+| -precoLocacao: float |
+| -qtdDisponivel: int  |
++----------------------+
